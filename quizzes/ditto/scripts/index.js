@@ -4,6 +4,6 @@ function startQuiz() {
     const startPageDiv = document.getElementById("startPage");
     const quizPageDiv = document.getElementById("quizPage");
 
-    startPageDiv.style.display = "none";
-    quizPageDiv.style.display = "block";
+    startPageDiv.setAttribute("hidden", "true");
+    quizPageDiv.removeAttribute("hidden");
 }
