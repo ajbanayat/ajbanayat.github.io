@@ -1,6 +1,10 @@
+# Site settings
+title: Allison Banayat
+author: Allison Banayat
+description: "Testing site"
+baseurl: ""
+
 # Where things are
-source              : .
-destination         : ./
 collections_dir     : .
 plugins_dir         : _plugins # takes an array of strings and loads plugins in that order
 layouts_dir         : _layouts
