@@ -5,19 +5,21 @@
     <title>Which Ditto Are You?</title>
 
     <!-- Scripts -->
-    <script src="scripts/index.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
+    <link rel="stylesheet" href="stylesheets/index.css" />
   </head>
   <body>
     <div id="startPage">
-        <h1>Which Ditto Are You?</h1>
-        <img src="assets/images/ditto.png">
-        <button type="button" id="startButton" onclick="startQuiz()">Start!</button>
+        <header><h1>Which Ditto Are You?</h1></header>
+        <section><img src="assets/images/ditto.png"></section>
+        <section><button type="button" id="startButton" onclick="startQuiz()">Start!</button></section>
     </div>
-    <div id="quizPage" style="display:none;">
-        <h1>Question?</h1>
 
-        <button type="button" id="answerButton1">Answer 1</button>
-        <button type="button" id="answerButton2">Answer 2</button>
+    <div id="quizPage" hidden>
+        <header><h1>Question?</h1></header>
+
+        <section><button type="button" id="answerButton1">Answer 1</button></section>
+        <section><button type="button" id="answerButton2">Answer 2</button></section>
     </div>
   </body>
 </html>
