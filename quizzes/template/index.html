@@ -10,7 +10,7 @@
   </head>
   <body>
     <div id="startPage" class="container">
-        <h1>Which Ditto Are You?</h1>
+        <h1>Quiz Title</h1>
 
         <img src="assets/images/ditto.png">
         <button type="button" id="startButton" onclick="startQuiz()">Start!</button>
@@ -18,9 +18,12 @@
 
     <div id="quizPage" class="container hidden">
         <h1 id="question"></h1>
-        <img>
-        <button type="button" id="answerButton1" onclick="nextQuestion()">Answer 1</button>
-        <button type="button" id="answerButton2" onclick="nextQuestion()">Answer 2</button>
+        <button id="answerButton1" onclick="nextQuestion()"></button>
+        <button id="answerButton2" onclick="nextQuestion()"></button>
     </div>
+
+    <div id="resultsPage" class="container hidden">
+      <h1 id="result">You are ___!</h1>
+  </div>
   </body>
 </html>
