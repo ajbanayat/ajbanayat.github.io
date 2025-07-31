@@ -1,0 +1,44 @@
+:root {
+    --background: #E6E6E6;
+    --text: #404E3B;
+    --secondary: #BAC8B1;
+}
+
+body {
+    background-color: var(--background);
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    color: var(--text);
+    font-size: 20px;
+    margin: 0;
+}
+
+header {
+    font-size: 40px;
+}
+
+nav {
+    background-color: var(--secondary);
+    position: relative;
+    height: 60px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav * {
+    display: inline;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 8px;
+    color: var(--text)
+}
